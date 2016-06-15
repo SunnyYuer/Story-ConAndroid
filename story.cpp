@@ -22,7 +22,7 @@ This file is part of Story.
 
 #include"´«Ææ.cpp"
 
-#define ver "0.7.1"
+#define ver "0.7.2"
 
 struct USERINFO
 {

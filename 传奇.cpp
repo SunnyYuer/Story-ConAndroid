@@ -2454,14 +2454,15 @@ struct CHARACTER BuyGoods(struct CHARACTER cha)
     {
       printf("\n");
       return cha;
-     }
+    }
     printf("购买数量:");
     w = cha.t;
     scanf("%d",&t);
     getchar();
-    if(t<0)
+    if(t<=0)
     {
-      t = 0;
+      printf("\n");
+	  return cha;
     }
     if((n==1&&cha.mny-cha.grd*3*t/3<0)||(n==2&&cha.mny-cha.grd*5*t/3<0)||(n==3&&cha.mny-cha.grd*10*t/3<0))
     {
@@ -2470,7 +2471,7 @@ struct CHARACTER BuyGoods(struct CHARACTER cha)
       getchar();
       printf("\n");
       return cha;
-     }
+    }
 	if(w==17)
 	{
 	  printf("背包空间不足\n");
