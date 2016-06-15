@@ -1,0 +1,5 @@
+﻿使用C4droid导出apk文件
+
+包名com.yuer.story
+版本号数字号按ab.cd.ef取为abcdef
+版本号为ab.cd.ef
