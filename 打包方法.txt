@@ -1,5 +1,6 @@
-﻿使用C4droid导出apk文件
+﻿1.文件格式转为utf8
+2.使用C4droid导出apk文件
 
-包名com.yuer.story
-版本号数字号按ab.cd.ef取为abcdef
-版本号为ab.cd.ef
+  包名com.yuer.story
+  版本号数字号按ab.cd.ef取为abcdef
+  版本号为ab.cd.ef
